@@ -1,0 +1,35 @@
+.weather-form {
+    margin-top: 5rem;
+    justify-content: space-evenly;
+}
+
+select, input, .weather-button {
+    display: inline-block; 
+    background-color: transparent;
+    padding: 1.5% 2.5%;
+    border: 2px solid white;
+    border-radius: 1rem;
+    color: white;
+}
+
+.weather-button {
+    margin-left: 3rem;
+    background-color: #FDC304;
+    color: black;
+    border: 2px solid black;
+    padding: 0.67% 2.5%;
+}
+
+
+
+.input-country {
+    margin-left: 1rem;
+}
+
+.input-city {
+    margin-left: 1rem;
+}  
+
+select {
+    padding: 0.5% 0.6%;
+}

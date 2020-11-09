@@ -1,0 +1,46 @@
+img {
+    display: inline;
+}
+
+.weather-info {
+    margin-top: 8rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.35);
+}
+
+#weather-icon {
+    width: 5rem;
+    height: 5rem;
+}
+
+#temperature-icon {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    margin-left: -1.5rem;
+    margin-right: 0rem;
+}
+
+#temperature {
+    margin-top: 0.5rem;
+}
+#conditions p{
+    margin-top: -0.8rem;
+}
+
+.weather-body {
+    border-top: 1px solid white;
+    font-size: 1.5rem;
+}
+
+
+#humidity-icon, #wind-icon, #pressure-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.weather-data {
+    font-size: 1rem;
+}

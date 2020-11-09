@@ -1,0 +1,30 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-image:url("img/rain.jpg");
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+  min-height: 100vh;
+  color: orange;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  position: absolute;
+  min-width: 100vw;
+  min-height: 100vh;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(34, 36, 103, 0.5);
+}
